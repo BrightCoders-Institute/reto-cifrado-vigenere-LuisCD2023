@@ -1,3 +1,4 @@
+require_relative 'FindKey'
 require_relative 'Decipher'
 
 def chunk(string, size)
@@ -10,7 +11,7 @@ def main
   name = gets.chomp
   name = criptograma 
 
-  salida = encontrar_clave(criptograma)
+  salida = findKey(criptograma)
   clave_final = salida[:clave]
 
   elementos_columna = (criptograma.length*1.0/clave_final*1.0).ceil
@@ -27,7 +28,7 @@ def main
 
   subcadenas_texto_plano = []
   for cadena in subcadenas_fin do
-      subcadenas_texto_plano << descifrar(cadena)
+      subcadenas_texto_plano << decipher(cadena)
   end
 
   puts subcadenas_texto_plano[0].length

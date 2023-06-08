@@ -1,4 +1,4 @@
-def descifrar(cadena)
+def decipher(cadena)
     alfabeto = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
     cadena_ary = cadena.split("")
     unique_chars = cadena_ary.uniq
