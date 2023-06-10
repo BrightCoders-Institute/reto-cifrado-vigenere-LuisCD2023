@@ -26,10 +26,10 @@ ruby VigenereCipherRuby.rb
 ## How to Use the Project
 ### Use Rubocop
 rubocop <VigenereCipherRuby.rb>.rb
-```
+...
 ### Use rspec (for test)
-```
+...
 rspec VigenereCipherRuby_spec.rb
-```
+...
 ## Credits
 - [@LuisCD2023](https://github.com/LuisCD2023)
