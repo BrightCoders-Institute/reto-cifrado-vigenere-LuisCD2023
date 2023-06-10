@@ -8,10 +8,17 @@ This README would normally document whatever steps are necessary to get the appl
 
 Things you may want to cover:
 
-- Title or Project Name
-- Table of contents
-- Description. A brief description of what the project is about
-- How to Install and Run the Project.
-- How to Use the Project.
+## Cipher Vigenere in Ruby
+## Table of content
+- [Description][#Description]
+- [How to install and Run the Project][#How-to-Install-and-Run-the-Project]
+- [How to Use the Project][#How-to-Install-and-Run-the-Project]
+## Description
+This is a repository where the vigenere engraving challenge was developed through the use of the ruby language
+
+## How to Install and Run the Project
+...
+## How to Use the Project.
+...ruby 
 - Credits
 - Badges
